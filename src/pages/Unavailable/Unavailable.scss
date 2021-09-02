@@ -1,0 +1,47 @@
+@import "../../colors.scss";
+
+.unavailable {
+  //margin-top: -75px;
+  background-color: #071944;
+  background-image: url("../../../public/images/layout/unavailable.png");
+  background-position: center;
+  background-size: cover;
+  //min-height: 767px;
+  min-height: 100vh;
+  min-width: 100vw;
+  text-align: center;
+  padding-top: 80px;
+
+  p {
+    font-size: 1.12rem;
+    line-height: 1.4rem;
+  }
+
+  img {
+    margin: 45px 0 10px;
+  }
+
+  a {
+    font-weight: 600;
+    color: #66cdbf;
+  }
+}
+
+.unavailable-mobile {
+  background-position: 12% 200px;
+  background-repeat: no-repeat;
+  //background-size: 700px;
+  padding-top: 60px;
+  //min-height: 600px;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  p {
+    font-size: 0.87rem;
+    line-height: 1.2rem;
+  }
+
+  img {
+    margin-top: 35px;
+  }
+}

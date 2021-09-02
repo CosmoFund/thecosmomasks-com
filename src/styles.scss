@@ -1,0 +1,85 @@
+@import "./colors.scss";
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: $color-body-background;
+  color: $color-white;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: normal;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+  margin: 0 auto;
+  max-width: 1366px;
+  width: 100%;
+  margin-top: 75px !important;
+}
+
+main.cover {
+  margin:  0 !important;
+}
+
+.link-yellow {
+  color: $color-link-yellow;
+  text-decoration: underline;
+}
+
+.link-blue {
+  color: $color-blue-text;
+  text-decoration: underline;
+}
+
+.link-orange {
+  color: $color-link-orange;
+  text-decoration: underline;
+}
+
+.blue-link {
+  color: $color-blue-text;
+  text-decoration: underline;
+}
+
+.btn-blue {
+  background-color: $color-blue !important;
+}
+
+.btn-green {
+  background-color: #00c051 !important;
+}
+
+.btn-green-2 {
+  background-color: #6dc999 !important;
+}
+
+.scrollTop {
+  cursor: pointer;
+  position: fixed !important;
+  bottom: 40px;
+  right: 80px;
+}
+
+.main-menu-mobile {
+  font-size: 1.1rem !important;
+}
+
+.fullPage {
+  height: 100vh;
+  display: flex;
+
+  img {
+    align-self: center;
+    width: 50vmax;
+  }
+}

@@ -1,0 +1,68 @@
+@import "../../colors.scss";
+
+.footer {
+  text-align: center;
+
+  &__bg {
+    background-image: url("../../../public/images/layout/footer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 255px;
+  }
+
+  .icons {
+    padding-left: 40%;
+    padding-top: 80px;
+  }
+
+  img {
+    width: 45px;
+  }
+
+  &__links {
+    background-color: #53114c;
+    font-size: 0.9rem;
+    text-align: left;
+    padding: 10px 15px;
+
+    .item {
+      color: $color-white;
+    }
+  }
+  a {
+    color: $color-white;
+  }
+}
+
+.footer-mobile {
+  img {
+    margin: 10px;
+    width: 65px;
+  }
+
+  .footer__bg {
+    background-position: 61%;
+  }
+
+  .footer__links {
+    padding-top: 14px;
+
+    p {
+      line-height: 1rem;
+    }
+
+    p:first-child {
+      font-size: 0.75rem;
+      line-height: 0.95rem;
+    }
+
+    .ui.link.list {
+      margin-top: 0;
+    }
+
+    .ui.link.list a {
+      color: $color-white;
+      padding: 9px 0;
+    }
+  }
+}
